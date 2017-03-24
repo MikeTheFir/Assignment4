@@ -132,26 +132,22 @@ public class A4Q10 extends javax.swing.JFrame {
         // get text
         String text1 = Ftextfield.getText();
 
-
-
     }//GEN-LAST:event_FtextfieldActionPerformed
 
     private void CtextfieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CtextfieldActionPerformed
         // get text
         String text2 = Ctextfield.getText();
 
-
-
     }//GEN-LAST:event_CtextfieldActionPerformed
 
     private void CFbuttonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CFbuttonActionPerformed
         // 0 C = 32 F
         String text2 = Ctextfield.getText();
+        
         //turn string into an integer
-        
         int number2 = Integer.parseInt(text2);
-        // convert from Celsius to Fahrenheit
         
+        // convert from Celsius to Fahrenheit
         int answer = (int) (number2 * 1.8 + 32 );
         
         //say answer

@@ -157,7 +157,8 @@ public class A4Q9 extends javax.swing.JFrame {
 //add first and second number
         String text1 = textfield1.getText();
         String text2 = textfield2.getText();
-
+        
+// turn string into integers
         int number1 = Integer.parseInt(text1);
         int number2 = Integer.parseInt(text2);
 
@@ -182,7 +183,8 @@ public class A4Q9 extends javax.swing.JFrame {
 //subtract first and second number
         String text1 = textfield1.getText();
         String text2 = textfield2.getText();
-
+        
+// turn string into integers
         int number1 = Integer.parseInt(text1);
         int number2 = Integer.parseInt(text2);
 
@@ -195,7 +197,8 @@ public class A4Q9 extends javax.swing.JFrame {
 //mutiply first and second number
         String text1 = textfield1.getText();
         String text2 = textfield2.getText();
-
+        
+// turn string into integers
         int number1 = Integer.parseInt(text1);
         int number2 = Integer.parseInt(text2);
 
@@ -208,7 +211,8 @@ public class A4Q9 extends javax.swing.JFrame {
 //divide first and second number
         String text1 = textfield1.getText();
         String text2 = textfield2.getText();
-
+        
+// turn string into integers
         int number1 = Integer.parseInt(text1);
         int number2 = Integer.parseInt(text2);
 
